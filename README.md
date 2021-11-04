@@ -16,7 +16,7 @@
 
 # Linux
 
-
+[Libs](https://github.com/Drubico/Init/blob/main/linux/install/deb.md)
 
 [Libs](https://github.com/Drubico/Init/blob/main/linux/install/libs.md)
 
