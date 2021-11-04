@@ -2,7 +2,7 @@
 
 ## Install 
 
-´´´
+```
 sudo apt install synaptic
 
-´´´
+```
