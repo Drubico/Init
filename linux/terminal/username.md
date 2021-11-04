@@ -3,7 +3,7 @@ sudo apt install terminator
 Mejor hacelo en la pagina :
 http://ezprompt.net/
 
-
+```
 # get current branch in git repo
 function parse_git_branch() {
   BRANCH=git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'
@@ -52,7 +52,8 @@ function parse_git_dirty {
 }
 
 export PS1="\[\e[31m\][\[\e[m\]\[\e[36m\]\u\[\e[m\]\[\e[31m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\]\[\e[31m\]:\[\e[m\]\[\e[33m\]\w\[\e[m\]\[\e[31m\]]\[\e[m\]\[\e[36m\]\`parse_git_branch\`\[\e[m\]\[\e[31m\][\[\e[m\]\d \[\e[31m\]*\[\e[m\] \[\e[37m\]\t\[\e[m\]\[\e[31m\]]\[\e[m\]\[\e[31m\]-\[\e[m\] "
-
+```
 para recargar:
-
+```
 source ~/.bashrc
+```
