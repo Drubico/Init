@@ -1,6 +1,8 @@
 ```
 URL : http://ftp.us.debian.org/debian/
 
-Distribucion : buster
+Distribucion : bullseye
 
 non-free contrib main 
+
+https://repology.org/project/snapd/versions

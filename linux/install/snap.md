@@ -20,6 +20,8 @@
     sudo snap install postman
     sudo snap install gitkraken --classic
     sudo snap install beekeeper-studio
+    sudo snap install node --channel=17/stable --classic
+
 
     sudo snap refresh
 ```
