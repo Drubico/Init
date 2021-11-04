@@ -18,6 +18,7 @@
 
 
 
-[Libs](https://github.com/Drubico/Init/linux/install/libs)
-[Snaps](https://github.com/Drubico/Init/linux/install/Snaps)
+[Libs](https://github.com/Drubico/Init/blob/main/linux/install/libs.md)
+
+[Snaps](https://github.com/Drubico/Init/blob/main/linux/install/snap.md)
 
