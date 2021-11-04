@@ -16,5 +16,8 @@
 
 # Linux
 
-[Libs](https://github.com/Drubico/Init/linux/intall/libs)
+
+
+[Libs](https://github.com/Drubico/Init/linux/install/libs)
+[Snaps](https://github.com/Drubico/Init/linux/install/Snaps)
 
