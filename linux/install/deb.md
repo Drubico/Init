@@ -8,3 +8,5 @@
 
 [BLEACHBIT](https://www.bleachbit.org/download)
 
+[WPS](https://linux.wps.com/)
+

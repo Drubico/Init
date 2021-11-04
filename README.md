@@ -26,3 +26,6 @@
 
 [Snaps](https://github.com/Drubico/Init/blob/main/linux/install/snap.md)
 
+[Postgres](https://github.com/Drubico/Init/blob/main/linux/install/postgres.md)
+
+

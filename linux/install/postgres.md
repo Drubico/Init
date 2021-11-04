@@ -32,13 +32,26 @@ alter user postgres with password 'postgres';
 ```
 ```
 exit
+```
+```
 /etc/postgresql/11/main/pg_hba.conf
-modificar la línea:
-local   all         all                               peer
-sustituyendo peer por md5, es decir:
-local   all         all                               md5
-/etc/init.d/postgresql reload
+```
 
+### modificar la línea:
+
+```
+local   all         all                               peer
+```
+
+
+### Sustituyendo peer por md5, es decir:
+
+```
+local   all         all                               md5
+```
+```
+/etc/init.d/postgresql reload
+```
 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 sudo apt-get update
 sudo apt-get install postgresql-12 pgadmin4
