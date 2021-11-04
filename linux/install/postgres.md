@@ -9,7 +9,7 @@ wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-
 
 sudo apt-get update
 
-sudo apt-get install postgresql
+sudo apt-get install postgresql -y
 
 ```
 
@@ -51,23 +51,46 @@ local   all         all                               md5
 ```
 ```
 /etc/init.d/postgresql reload
+
+---
 ```
 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+
 sudo apt-get update
 sudo apt-get install postgresql-12 pgadmin4
 apt-get install pgadmin3
+
+
 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+
+
 2) Configuración básica
+
+
 a) Convertirse en el usuario postgres
+```
               su postgres
+```              
 b) Entrar al SGBD
-                psql 
+```                
+psql 
+
+```                
+
 c) Crear un usuario con contraseña (sentencia SQL) que tenga permiso de creación de bases de datos. Sustituyan lapalabramagica por la contraseña que prefieran.
+```                       
              create user admin with password 'lapalabramagica' createdb;
+```
 d) salir
+ ```               
                 \q
+```
 f) salir de la sesión como usuario postgres para volver a ser root
-                 exit   
+```                 
+                 exit 
+```                 
 g) editar como root el fichero /etc/postgresql/11/main/pg_hba.conf (ojo 11 podría cambiar según la versión que se haya instalado). En línea de comandos puede usar nano (fácil) o vi (avanzado), también puede lanzar un editor que se abra en el entorno gráfico como kate (KDE), gedit (Gnome)...
 
 modificar la línea:
