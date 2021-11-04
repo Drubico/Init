@@ -16,7 +16,11 @@
 
 # Linux
 
-[Libs](https://github.com/Drubico/Init/blob/main/linux/install/deb.md)
+[BASICS](https://github.com/Drubico/Init/blob/main/linux/install/basic.md)
+
+[TERMINAL_INSTALL](https://github.com/Drubico/Init/blob/main/linux/install/terminal.md)
+
+[DEBS](https://github.com/Drubico/Init/blob/main/linux/install/deb.md)
 
 [Libs](https://github.com/Drubico/Init/blob/main/linux/install/libs.md)
 
