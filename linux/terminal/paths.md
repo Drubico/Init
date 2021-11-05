@@ -1,4 +1,10 @@
-dependencias cambiar "deb url"
-cd /etc/apt/sources.list.d/
+URL APPS SISTEMA
 
-var/lib/snapd/desktop
+/etc/apt/sources.list.d/
+
+URL APPAS SNAP
+
+/var/lib/snapd/desktop
+
+URL APPS LOCALES
+/home/drubico/.local/share/applications

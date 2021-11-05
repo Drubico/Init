@@ -20,8 +20,9 @@
     sudo snap install postman
     sudo snap install gitkraken --classic
     sudo snap install beekeeper-studio
+    sudo snap install swi-prolog	
     sudo snap install node --channel=17/stable --classic
-
+    snap install swi-prolog
 
     sudo snap refresh
 ```
