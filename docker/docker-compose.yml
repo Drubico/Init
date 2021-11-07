@@ -1,7 +1,8 @@
 version: '3.7'
 services:
   web:
-    image: dilverpro/lessa-frontend:v1
+    # build: .    #Esto crea lo que tenemos localmente
+    image: dilverpro/lessa-frontend:v2 #baja la imagen de el hub y lo correo
     command: npm run start
     volumes:
       - .:/usr/app/
