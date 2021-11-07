@@ -1,5 +1,10 @@
-# si tengo un proyecto de npm por ejemplo 
 
+https://hub.docker.com/u/dilverpro
+https://docs.docker.com/engine/install/linux-postinstall/
+
+sudo usermod -aG docker drubico
+
+# si tengo un proyecto de npm por ejemplo 
 ```
 sudo docker build -t lessa-frontend .
 
