@@ -1,7 +1,7 @@
 ```
-sudo apt install synaptics -y
+sudo apt install synaptic -y
 
 sudo apt install snapd -y  
 
-
+sudo apt install nautilus
 ```
