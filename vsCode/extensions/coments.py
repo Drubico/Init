@@ -199,15 +199,50 @@
                                                             
  
 */
+
+
+"""
+ 
+  +-+-+-+-+-+-+-+
+  |D|i|g|i|t|a|l|
+  +-+-+-+-+-+-+-+
+ 
+"""
+
+"""
+ 
+                                                          
+                                                          
+ DDDDDDDDDDDDD                        hhhhhhh             
+ D::::::::::::DDD                     h:::::h             
+ D:::::::::::::::DD                   h:::::h             
+ DDD:::::DDDDD:::::D                  h:::::h             
+   D:::::D    D:::::D    ooooooooooo   h::::h hhhhh       
+   D:::::D     D:::::D oo:::::::::::oo h::::hh:::::hhh    
+   D:::::D     D:::::Do:::::::::::::::oh::::::::::::::hh  
+   D:::::D     D:::::Do:::::ooooo:::::oh:::::::hhh::::::h 
+   D:::::D     D:::::Do::::o     o::::oh::::::h   h::::::h
+   D:::::D     D:::::Do::::o     o::::oh:::::h     h:::::h
+   D:::::D     D:::::Do::::o     o::::oh:::::h     h:::::h
+   D:::::D    D:::::D o::::o     o::::oh:::::h     h:::::h
+ DDD:::::DDDDD:::::D  o:::::ooooo:::::oh:::::h     h:::::h
+ D:::::::::::::::DD   o:::::::::::::::oh:::::h     h:::::h
+ D::::::::::::DDD      oo:::::::::::oo h:::::h     h:::::h
+ DDDDDDDDDDDDD           ooooooooooo   hhhhhhh     hhhhhhh
+                                                          
+                                                          
+                                                          
+                                                          
+                                                          
+                                                          
+                                                          
+ 
+"""
+
+
+
+
 /*
-
-
-
-
-Digital
-
-
-
 * ! wdmdw
 * ? dsdm
 * * dlwdwdokw
