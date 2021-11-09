@@ -11,7 +11,8 @@
     sudo snap install spotify 
     sudo snap install mailspring
     sudo snap install fast
-
+    sudo snap install emote
+    
     ==>> PRODUCTIVITY
     sudo snap install bitwarden
     sudo snap install drawio
