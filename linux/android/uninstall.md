@@ -74,6 +74,7 @@ pm uninstall -k --user 0 com.facebook.appmanager
 pm uninstall -k --user 0 com.hancom.office.viewer
 ```
 # Bloadbore Google
+```
 pm uninstall -k --user 0 com.google.android.music  
 pm uninstall -k --user 0 com.google.android.videos
 pm uninstall -k --user 0 com.google.android.talk
@@ -84,3 +85,4 @@ pm uninstall -k --user 0 com.google.android.apps.plus
 pm uninstall -k --user 0 com.google.android.apps.inputmethod.hindi
 pm uninstall -k --user 0 com.google.android.inputmethod.korean
 pm uninstall -k --user 0 com.google.android.apps.genie.geniewidget
+```
