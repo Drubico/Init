@@ -1,0 +1,48 @@
+tilSpinnerTipoFalloversion: '3'
+services:
+  api-bitacora:
+    image: node:14.17.5-bullseye-slim
+    container_name: api-bitacora
+    hostname: api-bitacora
+    volumes:
+      - ./api-bitacora:/var/www/api-bitacora
+    working_dir: /var/www/api-bitacora
+    environment:
+      - HOST=0.0.0.0
+      - SERVER_PORT=8000
+      - DB_DATABASE=bitacora
+      - DB_USERNAME=bitacora
+      - DB_PASSWORD=bitacora
+      - DB_HOST=10.10.20.154
+      - DB_PORT=5432
+      - SECRET_KEY=cl4v3_secret4
+      - APP_DEBUG=true
+      - JWT_EXPIRATION_TIME=60m
+      - REFRESH_EXPIRATION_TYPE=h
+      - REFRESH_EXPIRATION_TIME=2
+      - REFRESH_TOKEN_INVALID_EXPIRATION_TYPE=s
+      - REFRESH_TOKEN_INVALID_EXPIRATION_TIME=4
+      - SISTEM_NAME=api-node-express
+      - DISABLE_TWO_FACTOR_AUTH=true
+      - MONGOOSE_USERNAME=admin
+      - MONGOOSE_PASSWORD=4dm1ns3
+      - MONGOOSE_HOST=10.10.20.154
+      - MONGOOSE_PORT=27017
+      - MONGOSE_DATABASE=plantilla_node
+    command: /var/www/api-bitacora/start.sh
+    ports:
+      - "4280:8000"
+    networks:
+        bitacora-net:
+    restart: unless-stopped
+
+  front-admin-bitacora:
+    image: front-admin-bitacora:1.0.11
+    container_name: front-admin-bitacora
+    hostname: front-admin-bitacora
+    ports:
+      - "4202:80"
+
+networks:
+  bitacora-net:
+    external: true
